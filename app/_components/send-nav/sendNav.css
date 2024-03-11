@@ -1,0 +1,47 @@
+.sendNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.sendNav-right ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+.sendNav-right ul li a{
+    background: linear-gradient(to right ,blue , red);
+    width: 30px;
+    height: 20px;
+    line-height: 30px;
+    padding: 8px 10px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 22px;
+}
+.nav-span {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 1px;
+    font-size: 10px;
+    text-align: center;
+}
+.nav-span.s{
+    position: absolute;
+    left: 200px;
+    top: -5px;
+}
+.nav-span.m{
+    position: absolute;
+    left: 270px;
+    top: -5px; 
+}
+.nav-span.h{
+    position: absolute;
+    left: 345px;
+    top: -5px;  
+}
